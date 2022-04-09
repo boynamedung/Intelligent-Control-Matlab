@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PhysicalModelingXMLFile>
+
+  <formatVersion>"1.0.4"</formatVersion>
+
+  <internalVersion>1</internalVersion>
+
+  <createdUsing>"SimMechanics Link Version 3.2"</createdUsing>
+
+  <createdFrom>"SolidWorks 20.0.0"</createdFrom>
+
+  <createdOn>"06/16/12||01:45:54"</createdOn>
+
+  <createdBy>"No formal user defined!"</createdBy>
+
+  <name>"BallBeam"</name>
+
+  <SimMechanics>
+    <name>"BallBeam"</name>
+    <nodeID>"BallBeam"</nodeID>
+    <bodies>
+      <Body>
+        <name>"Beam-2"</name>
+        <nodeID>"Beam-2"</nodeID>
+        <status>""</status>
+        <mass>0.142403</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.38091e-005,0,-8.90739e-011,0,0.00336681,1.14658e-009,-8.90739e-011,1.14658e-009,0.00337387</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.000111213</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0874806</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Beam-2::CG(AUTOGEN)"</nodeID>
+            <position>2.60119e-006,0.000607844,1.32563e-005</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.999991,-0.00427933,0,0.00427933,0.999991,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Beam-2::CS1(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.999991,-0.00427933,0,0.00427933,0.999991,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="2">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Base Motor-1:-:Beam-2::Beam-2(AUTOGEN)"</nodeID>
+            <position>0,0,-0.00849566</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="5">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>":-:BallBeam/RootPart::Beam-2(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"BallBeam - Beam-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.752941,0.752941,0.752941</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Base Motor-1"</name>
+        <nodeID>"Base Motor-1"</nodeID>
+        <status>""</status>
+        <mass>0.336571</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.000801363,3.96141e-010,3.99171e-015,3.96141e-010,0.000314607,0.000206003,3.99171e-015,0.000206003,0.000797116</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>7.26855e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0364975</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Base Motor-1::CG(AUTOGEN)"</nodeID>
+            <position>0,-0.0689193,-0.0170081</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Base Motor-1::CS1(AUTOGEN)"</nodeID>
+            <position>0,0,-0.0592</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="1">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Base Motor-1:-:Beam-2::Base Motor-1(AUTOGEN)"</nodeID>
+            <position>0,0,-0.00849566</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="3">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>":-:BallBeam/RootPart::Base Motor-1(AUTOGEN)"</nodeID>
+            <position>0,0,-0.0592</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"BallBeam - Base Motor-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.752941,0.752941,0.752941</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Ball-1"</name>
+        <nodeID>"Ball-1"</nodeID>
+        <status>""</status>
+        <mass>0.0218881</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>6.70322e-007,0,0,0,6.70322e-007,0,0,0,6.70322e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.80616e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.000962113</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Ball-1::CG(AUTOGEN)"</nodeID>
+            <position>0,0.0228707,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,-1,0,0,0,-1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Ball-1::CS1(AUTOGEN)"</nodeID>
+            <position>0,0.0228707,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,-1,0,0,0,-1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="10">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Ball-1:-:BallBeam/RootPart::Ball-1(AUTOGEN)"</nodeID>
+            <position>0,0.0228707,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"BallBeam - Ball-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.529412,0.54902,0.54902</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.3</shininess>
+          <transparency>0</transparency>
+          <emission>0.21</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"RootPart"</name>
+        <nodeID>"BallBeam/RootPart"</nodeID>
+        <status>""</status>
+        <mass>0</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0,0,0,0,0,0,0,0,0</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"BallBeam/RootPart::CG(AUTOGEN)"</nodeID>
+            <position>7.39558e-007,-0.0451404,-0.0114254</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"BallBeam/RootPart::CS1(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="4">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>":-:BallBeam/RootPart::BallBeam/RootPart(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="6">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>":-:BallBeam/RootPart::BallBeam/RootPart(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="8">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"BallBeam/RootPart:-:RootGround::BallBeam/RootPart(AUTOGEN)"</nodeID>
+            <position>7.39558e-007,-0.0451404,-0.0114254</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="9">
+            <name>"CS5"</name>
+            <displayName>""</displayName>
+            <nodeID>"Ball-1:-:BallBeam/RootPart::BallBeam/RootPart(AUTOGEN)"</nodeID>
+            <position>7.39558e-007,-0.0451404,-0.0114254</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>""</geometryFileName>
+      </Body>
+    </bodies>
+    <joints>
+      <SimpleJoint>
+        <name>"Base Motor-1--Beam-2"</name>
+        <nodeID>"Base Motor-1:-:Beam-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="1"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="2"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Base Motor-1--RootPart"</name>
+        <nodeID>":-:BallBeam/RootPart"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="3"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="4"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Beam-2--RootPart"</name>
+        <nodeID>":-:BallBeam/RootPart"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="5"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="6"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-1,0,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,-1,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"RootGround--RootPart"</name>
+        <nodeID>"BallBeam/RootPart:-:RootGround"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="7"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="8"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"RootPart--Ball-1"</name>
+        <nodeID>"Ball-1:-:BallBeam/RootPart"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="9"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="10"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>1,0,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,1,0</axis>
+          </Primitive>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+          <Primitive>
+            <name>"spherical"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+    </joints>
+    <grounds>
+      <Ground>
+        <name>"RootGround"</name>
+        <nodeID>"RootGround"</nodeID>
+        <status>""</status>
+        <frame>
+          <Frame ref="7">
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"BallBeam/RootPart:-:RootGround::RootGround(AUTOGEN)"</nodeID>
+            <position>7.39558e-007,-0.0451404,-0.0114254</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frame>
+      </Ground>
+    </grounds>
+    <subsystems></subsystems>
+    <connectionPorts></connectionPorts>
+    <id>0</id>
+  </SimMechanics>
+
+</PhysicalModelingXMLFile>
