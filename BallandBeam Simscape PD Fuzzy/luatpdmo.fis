@@ -1,0 +1,49 @@
+[System]
+Name='pdfuzzy'
+Type='sugeno'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='kp'
+Range=[-1 1]
+NumMFs=3
+MF1='NE':'trapmf',[-2 -1 -0.4 0]
+MF2='ZE':'trimf',[-0.4 0 0.4]
+MF3='PO':'trapmf',[0 0.4 1 2]
+
+[Input2]
+Name='kd'
+Range=[-1 1]
+NumMFs=3
+MF1='NE':'trimf',[-2 -1 0]
+MF2='ZE':'trimf',[-1 0 1]
+MF3='PO':'trimf',[0 1 2]
+
+[Output1]
+Name='output1'
+Range=[0 1]
+NumMFs=5
+MF1='PB':'constant',[0]
+MF2='PS':'constant',[0.5]
+MF3='ZE':'constant',[0]
+MF4='NS':'constant',[-0.5]
+MF5='NB':'constant',[-1]
+
+[Rules]
+1 1, 5 (1) : 1
+1 2, 4 (1) : 1
+1 3, 5 (1) : 1
+2 1, 4 (1) : 1
+2 2, 3 (1) : 1
+2 3, 2 (1) : 1
+3 1, 1 (1) : 1
+3 2, 2 (1) : 1
+3 3, 1 (1) : 1
